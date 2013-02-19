@@ -1,7 +1,7 @@
 ShoppingApp::Application.routes.draw do
   resources :items
 
-root :to => 'items#index'
+root :to => 'items#new'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
